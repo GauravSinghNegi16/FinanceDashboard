@@ -1,18 +1,20 @@
 # 💰 Finset – Finance Dashboard
 
-A modern and responsive **Finance Dashboard** built using **React.js and Tailwind CSS** to help users track balance, income, expenses, and financial trends in a clean and intuitive interface.
+A modern and responsive **Finance Dashboard** built using **React.js and Tailwind CSS** to visualize financial data such as balance, income, expenses, and spending trends.
+
+🔗 **Live Demo:** https://finance-dashboard-lemon-seven.vercel.app/
 
 ---
 
 ## 🚀 Overview
 
-Finset is a frontend-focused project designed to demonstrate:
-- Strong **React fundamentals**
-- Clean **component architecture**
-- Effective **state management using Context API**
-- Modern **UI/UX design practices**
+Finset is a frontend-focused project designed to showcase:
+- Clean and scalable **React architecture**
+- Efficient **state management using Context API**
+- Modern **UI/UX design with Tailwind CSS**
+- Interactive **financial data visualization**
 
-The application provides a centralized dashboard where users can visualize financial data and navigate through transactions, wallet, and analytics sections.
+The application provides a centralized dashboard where users can monitor their financial data through intuitive charts and structured layouts.
 
 ---
 
@@ -21,25 +23,25 @@ The application provides a centralized dashboard where users can visualize finan
 ### 📊 Dashboard
 - Displays **Total Balance, Income, and Expenses**
 - Monthly comparison indicators (growth/decline)
-- Clean card-based layout for quick insights
+- Clean card-based UI for quick insights
 
 ### 📈 Analytics
-- **Bar Chart** for balance trends over time
-- **Donut Chart** for expense category breakdown
-- Consistent color theme for better readability
+- **Bar Chart** for balance trends across months
+- **Donut Chart** for expense breakdown by category
+- Consistent and minimal design for better readability
 
 ### 🧾 Transactions
-- List of transactions with structured data
-- Easy-to-read layout for financial tracking
+- Structured transaction list
+- Easy-to-read financial records
 
 ### 💳 Wallet
-- Overview of user balance and financial summary
+- Summary of user balance and financial status
 - Reusable wallet card component
 
 ### 🧭 Navigation & UI
 - Sidebar navigation (Dashboard, Transactions, Wallet, Analytics)
 - Topbar with search and user controls
-- Fully responsive design across devices
+- Fully responsive layout (mobile, tablet, desktop)
 
 ---
 
@@ -56,7 +58,7 @@ The application provides a centralized dashboard where users can visualize finan
   - TransactionsContext
 
 ### Data Handling
-- Static mock data
+- Static mock data (`transactions.js`)
 - Utility helper functions
 
 ---
@@ -64,55 +66,56 @@ The application provides a centralized dashboard where users can visualize finan
 ## ⚙️ Approach & Architecture
 
 ### 1. Component-Based Design
-The UI is divided into reusable components such as:
+The UI is divided into reusable components:
 - Sidebar
 - Topbar
 - Cards
 - WalletCard
 - TransactionItem  
 
-This improves **code reusability and maintainability**.
+This improves **reusability and maintainability**.
 
 ---
 
 ### 2. Folder Structure Strategy
-- `components/` → Reusable UI components  
-- `pages/` → Main screens (Dashboard, Wallet, etc.)  
+- `components/` → Reusable UI elements  
+- `pages/` → Main screens  
 - `context/` → Global state management  
-- `data/` → Static/mock data  
+- `data/` → Mock data  
 - `utils/` → Helper functions  
 
-This structure ensures **scalability and clarity**.
+Ensures **scalable and organized codebase**.
 
 ---
 
 ### 3. State Management
-Used **Context API** for lightweight global state instead of Redux:
-- Handles transactions data
-- Manages role-based UI logic (if applicable)
+Used **Context API** instead of Redux for simplicity:
+- Centralized transactions data
+- Handles role-based UI logic
 
 ---
 
 ### 4. UI/UX Design Approach
-- Minimal and modern design
+- Minimal and modern interface
 - Consistent spacing and typography
-- Purple-based theme for brand consistency
-- Focus on readability and clarity
+- Purple-based theme for visual identity
+- Focus on clarity and usability
 
 ---
 
-### 5. Data & Chart Strategy
-- Static data used for demonstration
-- Bar chart → Trend visualization  
-- Donut chart → Category distribution  
+### 5. Data Visualization Strategy
+- Bar Chart → Monthly balance trends  
+- Donut Chart → Expense categories  
+- Designed for simplicity and readability
 
-Charts are designed to be **simple, readable, and visually consistent**.
+---
+
 
 ---
 
 ## 🧑‍💻 Installation & Setup
 
-### 1. Clone the Repository
+### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/finset-dashboard.git
 cd finset-dashboard
