@@ -38,47 +38,6 @@ A modern, responsive **Finance Dashboard** built using **React + Tailwind CSS**,
 - Donut Chart (Spending Breakdown)
 
 ---
-
-## 📁 Project Structure
-Frontend/
-│
-├── public/
-├── src/
-│ ├── assets/
-│ ├── components/
-│ │ ├── Card.jsx
-│ │ ├── Sidebar.jsx
-│ │ ├── Topbar.jsx
-│ │ ├── WalletCard.jsx
-│ │ └── TransactionItem.jsx
-│ │
-│ ├── context/
-│ │ ├── RoleContext.jsx
-│ │ └── TransactionsContext.jsx
-│ │
-│ ├── data/
-│ │ └── transactions.js
-│ │
-│ ├── pages/
-│ │ ├── Dashboard.jsx
-│ │ ├── Transactions.jsx
-│ │ ├── Wallet.jsx
-│ │ └── Analytics.jsx
-│ │
-│ ├── store/
-│ ├── utils/
-│ │ └── helpers.js
-│ │
-│ ├── App.jsx
-│ ├── main.jsx
-│ └── index.css
-│
-├── index.html
-├── eslint.config.js
-└── .gitignore  
-
----
-
 ## ⚙️ Approach & Architecture
 
 ### Component-Based Design
